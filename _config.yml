@@ -1,0 +1,213 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Jens Ivar Jørdre
+title: Chief Technology Officer
+#email: jensivar@nahmii.io / jijordre@gmail.com
+emails:
+  - jensivar@nahmii.io
+  - jijordre@gmail.com
+website: about.me/jijordre
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+twitter_username: jijordre
+github_username: jijordre
+linkedin_username: jijordre
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jijordre
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+# xing_username: jekyll
+# pinterest_username: jijordre
+# youtube_username: jijordre
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile2_bw.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi,
+
+  My name is Jens Ivar Jørdre. I am a full-stack software engineer and startup executive with over 20 years of experience from nuclear physics, blockchain, Web3, cloud, crypto, fintech, media, oil and gas, aviation, visualization, medical imaging and more.
+
+  I believe in humanizing technology and am passionate about reaching new people with technological solutions customized to their needs.
+
+content:
+  - title: Selected Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Nahmii
+        link: www.nahmii.io
+        # link_text: Company Website
+        additional_links:
+          - title: nahmii
+            icon: fab fa-github
+            url: github.com/nahmii
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          This is an ongoing project that thus far has evolved through three generations with increasing usability and flexibility at each cycle. The first generation was created to scale up the transfer of ETH and ERC20 tokens. The second generation added support for general smart contracts, albeit at times requiring adjustments to smart contracts before their deployment to the Nahmii network. The third generation is fully compliant with Ethereum opcodes and thus enables smart contracts developed for Ethereum to be deployed to Nahmii without modification.
+
+          My contribution in this project includes the development of smart contracts, work on the framework's modified Ethereum client and architecture, management of infrastructure as well as supervision of and assistance to an eager pack of developers distributed at various locations around the globe.
+          
+          <b>TechStack: </b><em>Solidity, Go, JavaScript, TypeScript, Node.js, AWS, Docker, Kubernetes, Hardhat, Truffle, Ethers, Web3</em>
+
+      - layout: top-middle
+        title: Complete
+        link: www.equinor.no
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          A client-server solution called 'Complete' was devised to assist in oil well completion. The bottom of the well hole is prepared according to the required specifications and production tubing before down hole tools as well as perforations and stimulations are run in. In this project I mostly worked on the web application front-end design by implementing support for numerous tubings and tools and their rendering and interaction.
+          
+          <b>TechStack: </b><em>JavaScript, Python, D3.js, Flask</em>
+
+      - layout: top-middle
+        title: ARIS Process Management System
+        link: www.equinor.no
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          Equinor configured and developed a solution for (mainly) process-oriented governance documentation using ARIS, a platform from Software AG.
+          
+          I developed the software for importing process oriented management documentation from legacy solutions into the ARIS solution and took part in designing the data model for the custom ARIS solution. After data migration I worked on new features, bug fixes, semantic checks and more in the ARIS solution.
+      
+          Also a web-based search based front-end was established for easy retrieval of governing documentation. To realize this search portal an underlying data warehouse was set up to host data from various subsystems, for the purpose of indexing the data for search.
+      
+          I designed the technical solution to integrate the existing subsystems for the search based solution, including their databases, with data warehouses, back-end and front-end for search and master data management system. I also designed and implemented the data model in data warehouses. Finally I developed a functional front-end prototype for search portal.
+      
+          <b>TechStack: </b><em>ARIS, JavaScript, Java, SQL, HTML, CSS, Velocity, jQuery, Solr, MS SQL Server, Oracle</em>
+
+      - layout: top-middle
+        title: ERA Visual
+        link: www.epsis.no
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          ERA Visual is a program for the visualization of work orders spread over a three-dimensional geographical surface. It is used in integrated operations in the oil industry.
+      
+          In this project I contributed in extending its support for the visualization of new types of data, especially related to work under the terrestrial surface. I developed database adapters and graphical components for ERA Visual.
+      
+          <b>TechStack: </b><em>C++, SQL, MS SQL Server</em>
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Nahmii AS
+        link: www.nahmii.io
+        epochs:
+          - sub_title: Chief Technology Officer
+            caption: November 2019 - Present
+          - sub_title: Chief Science Officer
+            caption: January 2009 - November 2019
+#        sub_title: Chief Technology Officer
+#        caption: November 2019 - Present
+        quote: >
+          The Nahmii architecture offers unprecedented scalability of Ethereum equivalent blockchains.
+        description: | # this will include new lines to allow paragraphs
+          In 2017 Nahmii set out to incorporate blockchain technology into its existing business, with the intention to build a fairer platform for online content creators, distributors and consumers. Nahmii's plan required a blockchain that could handle thousands of transactions each second, with minimal latency and low fees. Realizing that the proposed scaling solutions for Ethereum were unable to fit its needs, Nahmii engaged to build its own, aptly also name Nahmii, the first commercially-focused Ethereum scaling solution.
+      
+          The Nahmii project has made me dive into the development of distributed applications that lays the foundation of contemporary blockchain networks and solutions on top. I've spent a fair chunk of my time developing smart contracts primarily for Ethereum equivalent networks and explored the inner workings of Ethereum client software. I have worked on microservices at the back-end, SDK, GUI, command line interfaces and architecture. As the Nahmii stack runs in the cloud, working with the likes of AWS and their services is a daily routine in the development and maintenance of infrastructure. Back in the day, prior to the pivot to a business model founded on blockchain‚ I worked on textual search and classification. Top this up with business development no day has ever been boring.
+
+      - layout: left
+        title: Webstep AS
+        link: www.webstep.no
+        epochs:
+          - sub_title: Senior Consultant
+            caption: April 2020 - April 2022
+          - sub_title: Senior Consultant
+            caption: May 2007 - November 2017
+        quote: >
+          Webstep is a non-bureaucratic company tailored for clever people.
+        description: | # this will include new lines to allow paragraphs
+          In 2007 I started as a senior consultant in Webstep. Through numerous projects over a decade I've expanded my technological horizon and grown my network. The organizations that I have had the pleasure to assist include Equinor, Avinor, Stacc, Epsis and Christian Michelsen Research, and also I have contributed to in-house software projects. I've exercized numerous roles in my assignments including software developer, architect, data warehouse designer, business developer, executive, business process modeller and facilitator.
+
+      - layout: left
+        title: NordicNeuroLab AS
+        link: www.nordicneurolab.com
+        sub_title: Developer
+        caption: February 2005 - April 2007
+        quote: >
+          We are dedicated to bringing the most advanced neuro-imaging tools to market while making functional MRI programs easy to implement.
+        description: | # this will include new lines to allow paragraphs
+          NordicNeuroLab provides products and solutions that support the field of functional MR imaging of the human brain. I took part in the development of their BOLD, Diffusion/DTI, and Perfusion/DCE analysis imaging software called 'nordicICE'. I focused on multi-planar visualization features and affine transformations as well as segmentation of structural pixel data for brain tissue extraction.
+
+      - layout: left
+        title: Department of Physics, University of Oslo
+        link: www.mn.uio.no/fysikk/english
+        sub_title: PhD Candidate
+        caption: July 2000 - June 2003
+        quote: >
+          The research conducted here ranges from elementary particle physics to material science and energy research, from space science to medical physics.
+        description: | # this will include new lines to allow paragraphs
+          My work included the development of analytical algorithms for experimental nuclear collision data w.r.t. particle identification and characterization, simulation and modeling of physical systems, as well as the design and development of software for calibration and monitoring of detectors and experiments. One year was spent at Brookhaven National Laboratory, NY, USA.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: University of Bergen, Bergen, Norway
+        caption: 2000 - 2005
+        sub_title: Doctor of Philosophy (Ph.D.) in High Energy Nuclear Physics
+        quote: >
+          The University of Bergen (UiB) is an internationally recognised research university. Academic diversity and high quality are fundamental for us. UiB is the most cited university in Norway.
+        description: | # this will include new lines to allow paragraphs
+          The thesis ["Rapidity and transverse momentum spectra and the reaction dynamics in Au + Au collisions at RHIC"](/data/phd-thesis.pdf){:target="_blank"}  describes various dynamic models for collisions of heavy atomic nuclei at high energies. These models are discussed in light of my own experimental results from the BRAHMS experiment at Brookhaven National Laboratory, NY, USA.
+
+      - layout: left
+        title: University of Bergen, Bergen, Norway
+        caption: 1994 - 2000
+        sub_title: Master of Science in High Energy Nuclear Physics
+        quote: >
+          The University of Bergen (UiB) is an internationally recognised research university. Academic diversity and high quality are fundamental for us. UiB is the most cited university in Norway.
+        description: | # this will include new lines to allow paragraphs
+          The work described in the thesis "Performance of the time projection chambers of the BRAHMS experiment at RHIC" involved hardware and functional testing of time projection chambers. Detectors of this type lay the groundwork for particle detection capabilities in the BRAHMS experiment at Brookhaven National Laboratory, NY, USA.
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Some of my extra-curricular activities include
+      - Hanging out with family and friends
+      - Playing music on electric or acoustic bass
+      - Hiking and running
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag

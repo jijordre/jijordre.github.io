@@ -1,0 +1,18 @@
+<div class="container footer-container">
+  <p>
+    {{ site.name | escape }} -
+    {%- if site.emails -%}
+      {% for item in site.emails %}
+        <a href="mailto:{{ item }}" target="_blank">{{ item | escape }}</a>
+        {%- if forloop.last == false -%}
+          &nbsp;-
+        {%- endif %}
+      {% endfor %}
+    {%- else -%}
+      <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
+    {%- endif -%}
+    {%- if site.footer_show_references -%}
+      &nbsp;- {{ site.references_title | default: "References on request" }}
+    {%- endif -%}
+  </p>
+</div>

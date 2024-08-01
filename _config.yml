@@ -53,7 +53,7 @@ about_profile_image: images/profile2_bw.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi,
 
-  My name is Jens Ivar Jørdre. I am a full-stack software engineer and startup executive with over 20 years of experience from nuclear physics, blockchain, Web3, cloud, crypto, fintech, media, oil and gas, aviation, visualization, medical imaging and more.
+  My name is Jens Ivar Jørdre. I am a full-stack software engineer and startup executive with over 20 years of experience from high energy nuclear physics, blockchain, Web3, cloud, crypto, fintech, media, oil and gas, aviation, visualization, medical imaging and more.
 
   I believe in humanizing technology and am passionate about reaching new people with technological solutions customized to their needs.
 
@@ -120,11 +120,26 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Webstep AS
+        link: www.webstep.no
+        epochs:
+          - sub_title: Senior Consultant
+            caption: August 2024 - Present
+          - sub_title: Senior Consultant
+            caption: April 2020 - April 2022
+          - sub_title: Senior Consultant
+            caption: May 2007 - November 2017
+        quote: >
+          Webstep is a non-bureaucratic company tailored for clever people.
+        description: | # this will include new lines to allow paragraphs
+          In 2007 I started as a senior consultant in Webstep. Through numerous projects over a decade I've expanded my technological horizon and grown my network. The organizations that I have had the pleasure to assist include Equinor, Avinor, Stacc, Epsis and Christian Michelsen Research, and also I have contributed to in-house software projects. I've exercized numerous roles in my assignments including software developer, architect, data warehouse designer, business developer, executive, business process modeller and facilitator.
+
+      - layout: left
         title: Nahmii AS
         link: www.nahmii.io
         epochs:
           - sub_title: Chief Technology Officer
-            caption: November 2019 - Present
+            caption: November 2019 - August 2024
           - sub_title: Chief Science Officer
             caption: January 2009 - November 2019
 #        sub_title: Chief Technology Officer
@@ -135,19 +150,6 @@ content:
           In 2017 Nahmii set out to incorporate blockchain technology into its existing business, with the intention to build a fairer platform for online content creators, distributors and consumers. Nahmii's plan required a blockchain that could handle thousands of transactions each second, with minimal latency and low fees. Realizing that the proposed scaling solutions for Ethereum were unable to fit its needs, Nahmii engaged to build its own, aptly also name Nahmii, the first commercially-focused Ethereum scaling solution.
       
           The Nahmii project has made me dive into the development of distributed applications that lays the foundation of contemporary blockchain networks and solutions on top. I've spent a fair chunk of my time developing smart contracts primarily for Ethereum equivalent networks and explored the inner workings of Ethereum client software. I have worked on microservices at the back-end, SDK, GUI, command line interfaces and architecture. As the Nahmii stack runs in the cloud, working with the likes of AWS and their services is a daily routine in the development and maintenance of infrastructure. Back in the day, prior to the pivot to a business model founded on blockchain‚ I worked on textual search and classification. Top this up with business development no day has ever been boring.
-
-      - layout: left
-        title: Webstep AS
-        link: www.webstep.no
-        epochs:
-          - sub_title: Senior Consultant
-            caption: April 2020 - April 2022
-          - sub_title: Senior Consultant
-            caption: May 2007 - November 2017
-        quote: >
-          Webstep is a non-bureaucratic company tailored for clever people.
-        description: | # this will include new lines to allow paragraphs
-          In 2007 I started as a senior consultant in Webstep. Through numerous projects over a decade I've expanded my technological horizon and grown my network. The organizations that I have had the pleasure to assist include Equinor, Avinor, Stacc, Epsis and Christian Michelsen Research, and also I have contributed to in-house software projects. I've exercized numerous roles in my assignments including software developer, architect, data warehouse designer, business developer, executive, business process modeller and facilitator.
 
       - layout: left
         title: NordicNeuroLab AS

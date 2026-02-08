@@ -53,9 +53,9 @@ about_profile_image: images/profile2_bw.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi,
 
-  My name is Jens Ivar Jørdre. I am a full-stack software engineer and startup executive with over 20 years of experience from high energy nuclear physics, blockchain, Web3, cloud, crypto, fintech, media, oil and gas, aviation, visualization, medical imaging and more.
+  I am a technically focused developer and architect with a PhD in nuclear physics, possessing a rare combination of deep technical understanding and strategic leadership experience from C-level roles. I practice value-based leadership that fosters trust and collaboration, creating ownership and motivation within my teams through the clear communication of goals.
 
-  I believe in humanizing technology and am passionate about reaching new people with technological solutions customized to their needs.
+  My expertise spans from low-level system programming to modern Web3 architecture and cloud-based microservices, enabling me to deliver solutions that unite scientific precision with commercial value. I thrive in bridging the gap between business and technology, humanizing technology, designing sustainable, high-performance systems that solve actual business needs even within strict regulatory frameworks. As a quality-conscious and results-oriented professional, I bring infectious enthusiasm to multidisciplinary teams in both distributed and co-located environments.
 
 content:
   - title: Selected Projects # Title for the section
@@ -67,7 +67,7 @@ content:
         # quote: >
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          At DNB Carnegie, I work as a system developer on two major initiatives: Project FIND and the Murex implementation.
+          At DNB Carnegie, I work as a System Developer on two major initiatives: Project FIND and the Murex implementation.
 
           For the FIND project, I help establish a central Master Data Management system for financial instruments, designing a scalable data model to import data from sources like Bloomberg and Nordic Bond Pricing. I also implement integrations to export this data to Murex and build a frontend for the business side to manage financial instruments.
 
@@ -76,7 +76,7 @@ content:
           <b>TechStack: </b><em></em>
 
       - layout: top-middle
-        title: Central Bank of Norway CBDC Retail Sandbox
+        title: CBDC Retail Sandbox for the Central Bank of Norway
         link: https://www.norges-bank.no/en/topics/financial-stability/cbdc/
         additional_links:
           - title: nahmii
@@ -85,7 +85,7 @@ content:
         # quote: >
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          As a system developer and architect for the CBDC Retail Sandbox project of the Central Bank of Norway, I was responsible for the management, design, and implementation of a technical sandbox to evaluate central bank digital currency (CBDC).
+          As a System Developer and architect for the CBDC Retail Sandbox project of the Central Bank of Norway, I was responsible for the management, design, and implementation of a technical sandbox to evaluate central bank digital currency (CBDC).
 
           We designed a comprehensive architecture that included a private Ethereum-based blockchain backend, specialized smart contracts, and a frontend interface. My role involved developing these smart contracts to support various retail payment scenarios and integrating the frontend with third-party authentication solutions. Additionally, we provided strategic advice to the Central Bank of Norway on critical technical decisions, such as the choice of token standards and bridge technologies. 
 
@@ -141,8 +141,6 @@ content:
             caption: November 2019 - August 2024
           - sub_title: Chief Science Officer
             caption: November 2017 - November 2019
-        #        sub_title: Chief Technology Officer
-        #        caption: November 2019 - Present
         quote: >
           The Nahmii architecture offers unprecedented scalability of Ethereum equivalent blockchains.
         description: | # this will include new lines to allow paragraphs

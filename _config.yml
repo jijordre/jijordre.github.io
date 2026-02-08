@@ -62,59 +62,54 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Nahmii
-        link: www.nahmii.io
-        # link_text: Company Website
+        title: DNB Carnegie
+        link: https://www.dnb.no/en/markets
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          At DNB Carnegie, I work as a system developer on two major initiatives: Project FIND and the Murex implementation.
+
+          For the FIND project, I help establish a central Master Data Management system for financial instruments, designing a scalable data model to import data from sources like Bloomberg and Nordic Bond Pricing. I also implement integrations to export this data to Murex and build a frontend for the business side to manage financial instruments.
+
+          Regarding the Murex project, I focus on integrating the trading platform with DNB Carnegie's existing portfolio. I developed a RESTful backend service to transform CSV datasets into XML for Murex imports. Additionally, I implemented a backend solution for reporting money market data to the Central Banks of Norway and Sweden using ISO 20022 standards. My work ensures simplified trading flows and optimized cost structures for data collection.
+
+          <b>TechStack: </b><em></em>
+
+      - layout: top-middle
+        title: Central Bank of Norway CBDC Retail Sandbox
+        link: https://www.norges-bank.no/en/topics/financial-stability/cbdc/
         additional_links:
           - title: nahmii
             icon: fab fa-github
-            url: github.com/nahmii
+            url: https://github.com/norges-bank
         # quote: >
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          This is an ongoing project that thus far has evolved through three generations with increasing usability and flexibility at each cycle. The first generation was created to scale up the transfer of ETH and ERC20 tokens. The second generation added support for general smart contracts, albeit at times requiring adjustments to smart contracts before their deployment to the Nahmii network. The third generation is fully compliant with Ethereum opcodes and thus enables smart contracts developed for Ethereum to be deployed to Nahmii without modification.
+          As a system developer and architect for the CBDC Retail Sandbox project of the Central Bank of Norway, I was responsible for the management, design, and implementation of a technical sandbox to evaluate central bank digital currency (CBDC).
 
-          My contribution in this project includes the development of smart contracts, work on the framework's modified Ethereum client and architecture, management of infrastructure as well as supervision of and assistance to an eager pack of developers distributed at various locations around the globe.
-          
-          <b>TechStack: </b><em>Solidity, Go, JavaScript, TypeScript, Node.js, AWS, Docker, Kubernetes, Hardhat, Truffle, Ethers, Web3</em>
+          We designed a comprehensive architecture that included a private Ethereum-based blockchain backend, specialized smart contracts, and a frontend interface. My role involved developing these smart contracts to support various retail payment scenarios and integrating the frontend with third-party authentication solutions. Additionally, we provided strategic advice to the Central Bank of Norway on critical technical decisions, such as the choice of token standards and bridge technologies. 
 
-      - layout: top-middle
-        title: Complete
-        link: www.equinor.no
-        # quote: >
-        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          A client-server solution called 'Complete' was devised to assist in oil well completion. The bottom of the well hole is prepared according to the required specifications and production tubing before down hole tools as well as perforations and stimulations are run in. In this project I mostly worked on the web application front-end design by implementing support for numerous tubings and tools and their rendering and interaction.
-          
-          <b>TechStack: </b><em>JavaScript, Python, D3.js, Flask</em>
+          This contribution has enabled the Central Bank of Norway to test a broad spectrum of scenarios and build solid first-hand expertise with key components of the blockchain ecosystem.
+
+          <b>TechStack: </b><em>Blockchain, Web3, Ethereum, Solidity, JavaScript, TypeScript, Node.js, Azure, AWS, Web3Auth, Docker, Kubernetes, Hardhat, Truffle, Ethers</em>
 
       - layout: top-middle
-        title: ARIS Process Management System
-        link: www.equinor.no
+        title: Nahmii
+        link: https://www.nahmii.io
+        additional_links:
+          - title: nahmii
+            icon: fab fa-github
+            url: https://github.com/nahmii
         # quote: >
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          Equinor configured and developed a solution for (mainly) process-oriented governance documentation using ARIS, a platform from Software AG.
-          
-          I developed the software for importing process oriented management documentation from legacy solutions into the ARIS solution and took part in designing the data model for the custom ARIS solution. After data migration I worked on new features, bug fixes, semantic checks and more in the ARIS solution.
-      
-          Also a web-based search based front-end was established for easy retrieval of governing documentation. To realize this search portal an underlying data warehouse was set up to host data from various subsystems, for the purpose of indexing the data for search.
-      
-          I designed the technical solution to integrate the existing subsystems for the search based solution, including their databases, with data warehouses, back-end and front-end for search and master data management system. I also designed and implemented the data model in data warehouses. Finally I developed a functional front-end prototype for search portal.
-      
-          <b>TechStack: </b><em>ARIS, JavaScript, Java, SQL, HTML, CSS, Velocity, jQuery, Solr, MS SQL Server, Oracle</em>
+          During my tenure as CSO and CTO at Nahmii, I led the architecture and development of our 2nd layer scaling solutions for Ethereum, spanning versions 1.0, 2.0, and 3.0.
 
-      - layout: top-middle
-        title: ERA Visual
-        link: www.epsis.no
-        # quote: >
-        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          ERA Visual is a program for the visualization of work orders spread over a three-dimensional geographical surface. It is used in integrated operations in the oil industry.
-      
-          In this project I contributed in extending its support for the visualization of new types of data, especially related to work under the terrestrial surface. I developed database adapters and graphical components for ERA Visual.
-      
-          <b>TechStack: </b><em>C++, SQL, MS SQL Server</em>
+          The Nahmii solution focuses on addressing critical scaling issues by minimizing transaction costs and latency while ensuring immediate finality and increasing bandwidth. For Nahmii 1.0, we designed a hybrid solution that combined decentralized applications with a client-server model to handle high transaction rates. Later, I directed the implementation of Nahmii 2.0 as an Ethereum-compatible platform and Nahmii 3.0 as an Ethereum-equivalent solution, allowing standard Ethereum contracts to be utilized with little to no modification.
+
+          My role involved technical leadership for teams ranging from 5 to 20 developers and operations engineers, where I oversaw the development of smart contracts, microservices, SDKs, and frontends. Additionally, I was responsible for business development towards new and existing customers and setting up service environments for standard lifecycle stages.
+
+          <b>TechStack: </b><em>Blockchain, Web3, Ethereum, Solidity, Go, JavaScript, TypeScript, Node.js, AWS, Docker, Kubernetes, Hardhat, Truffle, Ethers</em>
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -132,7 +127,11 @@ content:
         quote: >
           Webstep is a non-bureaucratic company tailored for clever people.
         description: | # this will include new lines to allow paragraphs
-          In 2007 I started as a senior consultant in Webstep. Through numerous projects over many years I've expanded my technological horizon and grown my network. At present I have a consulting engagement with DNB Carnegie, the investment branch of DNB, the largest bank in Norway. Other organizations that I have had the pleasure to assist include Equinor, Avinor, Stacc, Epsis and Christian Michelsen Research. Also I have contributed to several Webstep in-house software projects. I've exercized numerous roles in my assignments including software developer, architect, data warehouse designer, business developer, executive, business process modeller and facilitator.
+          As a Senior Consultant at Webstep, I currently leverage my expertise to modernize financial infrastructure for DNB Carnegie, focusing on cost optimization and operational stability through the FIND and Murex projects. My work designing scalable data models and automating trading flows has reinforced the importance of robust architecture in high-stakes financial environments.
+
+          Previously, I delivered social value through Webstep's Project Samla, where I architected a serverless AWS solution that empowers municipalities with data to improve public health decision-making. My extensive tenure with Statoil allowed me to transition between roles as a System Developer, Architect, and Business Process Modeler, teaching me how to effectively bridge the gap between complex technical implementations and strategic business needs. There, I enhanced operational workflows and compliance by harmonizing governing documentation and developing a well-completion system. Engagements with clients like Avinor and Delfi Data further broadened my industry scope, ranging from aviation data integration to banking advisory tools.
+
+          Throughout these projects, I have learned to navigate strict regulatory frameworks while delivering high-performance solutions, whether visualizing seismic data for the oil industry or managing sensitive financial instruments. This diverse experience has honed my ability to unite scientific precision with commercial value, ensuring technical decisions directly support the customer's core objectives.
 
       - layout: left
         title: Nahmii AS
@@ -141,15 +140,15 @@ content:
           - sub_title: Chief Technology Officer
             caption: November 2019 - August 2024
           - sub_title: Chief Science Officer
-            caption: January 2009 - November 2019
-#        sub_title: Chief Technology Officer
-#        caption: November 2019 - Present
+            caption: November 2017 - November 2019
+        #        sub_title: Chief Technology Officer
+        #        caption: November 2019 - Present
         quote: >
           The Nahmii architecture offers unprecedented scalability of Ethereum equivalent blockchains.
         description: | # this will include new lines to allow paragraphs
-          In 2017 Nahmii set out to incorporate blockchain technology into its existing business, with the intention to build a fairer platform for online content creators, distributors and consumers. Nahmii's plan required a blockchain that could handle thousands of transactions each second, with minimal latency and low fees. Realizing that the proposed scaling solutions for Ethereum were unable to fit its needs, Nahmii engaged to build its own, aptly also name Nahmii, the first commercially-focused Ethereum scaling solution.
-      
-          The Nahmii project has made me dive into the development of distributed applications that lays the foundation of contemporary blockchain networks and solutions on top. I've spent a fair chunk of my time developing smart contracts primarily for Ethereum equivalent networks and explored the inner workings of Ethereum client software. I have worked on microservices at the back-end, SDK, GUI, command line interfaces and architecture. As the Nahmii stack runs in the cloud, working with the likes of AWS and their services is a daily routine in the development and maintenance of infrastructure. Back in the day, prior to the pivot to a business model founded on blockchain‚ I worked on textual search and classification. Top this up with business development no day has ever been boring.
+          During my tenure as CSO and CTO at Nahmii, I led the strategic architecture and development of our 2nd layer Ethereum scaling solutions, evolving the platform through three major versions to address critical bottlenecks like transaction costs and latency. This work provided significant value by delivering immediate finality and high bandwidth, managed through technical leadership of development teams and operations engineers. 
+
+          I also took on a hands-on role as System Developer and Architect for the Norwegian Central Bank, where I managed the design and implementation of a technical sandbox to evaluate Central Bank Digital Currency (CBDC). This contribution was vital in enabling the Norwegian Central Bank to test retail payment scenarios practically, thereby building solid, first-hand expertise within the blockchain ecosystem. My time at Nahmii thus spanned from high-level executive strategy and business development to deep technical implementation, bridging the gap between commercial scaling needs and national financial experimentation.
 
       - layout: left
         title: NordicNeuroLab AS
@@ -197,8 +196,9 @@ content:
     content: | # this will include new lines to allow paragraphs
       Some of my extra-curricular activities include
       - Hanging out with family and friends
+      - Reading books
       - Playing music on electric or acoustic bass
-      - Hiking and running
+      - Hiking and going to the gym
 
 # Footer
 footer_show_references: false

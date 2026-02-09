@@ -8,11 +8,10 @@ version: 2
 # Personal info
 name: Jens Ivar Jørdre
 title: Senior Consultant
-#email: jensivar@nahmii.io / jijordre@gmail.com
 emails:
   - jens.ivar.jordre@webstep.no
   - jijordre@gmail.com
-website: about.me/jijordre
+website: jijordre.github.io
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -36,10 +35,10 @@ linkedin_username: jijordre
 # additional_links:
 # - title: itsgoingto.be
 #   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
+#   url: www.itsgoingto.be
 # - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. google.com)
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -49,7 +48,7 @@ linkedin_username: jijordre
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile2_bw.jpg
+about_profile_image: images/profile3.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi,
 
@@ -63,7 +62,7 @@ content:
     content:
       - layout: top-middle
         title: DNB Carnegie
-        link: https://www.dnb.no/en/markets
+        link: www.dnb.no/en/markets
         # quote: >
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
@@ -71,21 +70,21 @@ content:
 
           For the FIND project, I help establish a central Master Data Management system for financial instruments, designing a scalable data model to import data from sources like Bloomberg and Nordic Bond Pricing. I also implement integrations to export this data to Murex and build a frontend for the business side to manage financial instruments.
 
-          Regarding the Murex project, I focus on integrating the trading platform with DNB Carnegie's existing portfolio. I developed a RESTful backend service to transform CSV datasets into XML for Murex imports. Additionally, I implemented a backend solution for reporting money market data to the Central Banks of Norway and Sweden using ISO 20022 standards. My work ensures simplified trading flows and optimized cost structures for data collection.
+          Regarding the Murex project, I focus on integrating the trading platform with DNB Carnegie's existing portfolio, a.o. by implementing a backend solution for reporting money market data to the Central Banks of Norway and Sweden using ISO 20022 standards. My work ensures simplified trading flows and optimized cost structures for data collection.
 
-          <b>TechStack: </b><em></em>
+          <b>TechStack: </b><em>Java, Kotlin, Spring Boot, JPA, Hibernate, Kafka, IBM MQ, PostgreSQL, Oracle Database, IBM DB2, Docker, Kubernetes, OpenShift, Argo CD, Azure DevOps</em>
 
       - layout: top-middle
         title: CBDC Retail Sandbox for the Central Bank of Norway
-        link: https://www.norges-bank.no/en/topics/financial-stability/cbdc/
+        link: www.norges-bank.no/en/topics/financial-stability/cbdc
         additional_links:
           - title: nahmii
             icon: fab fa-github
-            url: https://github.com/norges-bank
+            url: github.com/norges-bank
         # quote: >
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          As a System Developer and architect for the CBDC Retail Sandbox project of the Central Bank of Norway, I was responsible for the management, design, and implementation of a technical sandbox to evaluate central bank digital currency (CBDC).
+          As a System Developer and architect for the CBDC Retail Sandbox project of the Central Bank of Norway, I was responsible for the management, design, and implementation of a technical sandbox to evaluate Central Bank Digital Currency (CBDC).
 
           We designed a comprehensive architecture that included a private Ethereum-based blockchain backend, specialized smart contracts, and a frontend interface. My role involved developing these smart contracts to support various retail payment scenarios and integrating the frontend with third-party authentication solutions. Additionally, we provided strategic advice to the Central Bank of Norway on critical technical decisions, such as the choice of token standards and bridge technologies. 
 
@@ -95,11 +94,11 @@ content:
 
       - layout: top-middle
         title: Nahmii
-        link: https://www.nahmii.io
+        link: www.nahmii.io
         additional_links:
           - title: nahmii
             icon: fab fa-github
-            url: https://github.com/nahmii
+            url: github.com/nahmii
         # quote: >
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
@@ -107,7 +106,7 @@ content:
 
           The Nahmii solution focuses on addressing critical scaling issues by minimizing transaction costs and latency while ensuring immediate finality and increasing bandwidth. For Nahmii 1.0, we designed a hybrid solution that combined decentralized applications with a client-server model to handle high transaction rates. Later, I directed the implementation of Nahmii 2.0 as an Ethereum-compatible platform and Nahmii 3.0 as an Ethereum-equivalent solution, allowing standard Ethereum contracts to be utilized with little to no modification.
 
-          My role involved technical leadership for teams ranging from 5 to 20 developers and operations engineers, where I oversaw the development of smart contracts, microservices, SDKs, and frontends. Additionally, I was responsible for business development towards new and existing customers and setting up service environments for standard lifecycle stages.
+          My role involved technical leadership for teams ranging from 5 to 20 developers and operations engineers, where I oversaw the development of smart contracts, microservices, SDKs, and frontends. Additionally, I enjoyed business development towards new and existing customers and setting up service environments for standard lifecycle stages.
 
           <b>TechStack: </b><em>Blockchain, Web3, Ethereum, Solidity, Go, JavaScript, TypeScript, Node.js, AWS, Docker, Kubernetes, Hardhat, Truffle, Ethers</em>
 
@@ -129,7 +128,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           As a Senior Consultant at Webstep, I currently leverage my expertise to modernize financial infrastructure for DNB Carnegie, focusing on cost optimization and operational stability through the FIND and Murex projects. My work designing scalable data models and automating trading flows has reinforced the importance of robust architecture in high-stakes financial environments.
 
-          Previously, I delivered social value through Webstep's Project Samla, where I architected a serverless AWS solution that empowers municipalities with data to improve public health decision-making. My extensive tenure with Statoil allowed me to transition between roles as a System Developer, Architect, and Business Process Modeler, teaching me how to effectively bridge the gap between complex technical implementations and strategic business needs. There, I enhanced operational workflows and compliance by harmonizing governing documentation and developing a well-completion system. Engagements with clients like Avinor and Delfi Data further broadened my industry scope, ranging from aviation data integration to banking advisory tools.
+          Previously, I delivered social value through Webstep's Project Samla, where I architected a serverless AWS solution that empowers municipalities with data to improve public health decision-making. My extensive tenure with Statoil allowed me to transition between roles as a System Developer, Architect, and Business Process Modeler, teaching me how to effectively bridge the gap between complex technical implementations and strategic business needs. There, I enhanced operational workflows and compliance by harmonizing governing documentation and developed a well-completion system. Engagements with clients like Avinor and Delfi Data further broadened my industry scope, ranging from aviation data integration to banking advisory tools.
 
           Throughout these projects, I have learned to navigate strict regulatory frameworks while delivering high-performance solutions, whether visualizing seismic data for the oil industry or managing sensitive financial instruments. This diverse experience has honed my ability to unite scientific precision with commercial value, ensuring technical decisions directly support the customer's core objectives.
 
@@ -160,7 +159,7 @@ content:
 
       - layout: left
         title: Department of Physics, University of Oslo
-        link: www.mn.uio.no/fysikk/english
+        link: www.uio.no/en/ift
         sub_title: PhD Candidate
         caption: July 2000 - June 2003
         quote: >
@@ -173,6 +172,7 @@ content:
     content:
       - layout: left
         title: University of Bergen, Bergen, Norway
+        link: www.uib.no/en/ift
         caption: 2000 - 2005
         sub_title: Doctor of Philosophy (Ph.D.) in High Energy Nuclear Physics
         quote: >
@@ -182,6 +182,7 @@ content:
 
       - layout: left
         title: University of Bergen, Bergen, Norway
+        link: www.uib.no/en/ift
         caption: 1994 - 2000
         sub_title: Master of Science in High Energy Nuclear Physics
         quote: >

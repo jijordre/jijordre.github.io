@@ -72,7 +72,7 @@ content:
 
           Regarding the Murex project, I focus on integrating the trading platform with DNB Carnegie's existing portfolio, a.o. by implementing a backend solution for reporting money market data to the Central Banks of Norway and Sweden using ISO 20022 standards. My work ensures simplified trading flows and optimized cost structures for data collection.
 
-          <b>TechStack: </b><em>Java, Kotlin, Spring Boot, JPA, Hibernate, Kafka, IBM MQ, PostgreSQL, Oracle Database, IBM DB2, Docker, Kubernetes, OpenShift, Argo CD, Azure DevOps</em>
+          <b>TechStack: </b><em>Java, Kotlin, Spring Boot, JPA, Hibernate, Kafka, IBM MQ, PostgreSQL, Oracle Database, IBM DB2, Docker, Kubernetes, OpenShift, Argo CD, Git, GitHub, GitLab, Azure DevOps</em>
 
       - layout: top-middle
         title: CBDC Retail Sandbox for the Central Bank of Norway
@@ -90,7 +90,7 @@ content:
 
           This contribution has enabled the Central Bank of Norway to test a broad spectrum of scenarios and build solid first-hand expertise with key components of the blockchain ecosystem.
 
-          <b>TechStack: </b><em>Blockchain, Web3, Ethereum, Solidity, JavaScript, TypeScript, Node.js, Azure, AWS, Web3Auth, Docker, Kubernetes, Hardhat, Truffle, Ethers</em>
+          <b>TechStack: </b><em>Blockchain, Web3, Ethereum, Solidity, JavaScript, TypeScript, Node.js, Azure, AWS, Web3Auth, Docker, Kubernetes, Hardhat, Truffle, Ethers, Git, GitHub</em>
 
       - layout: top-middle
         title: Nahmii
@@ -108,7 +108,7 @@ content:
 
           My role involved technical leadership for teams ranging from 5 to 20 developers and operations engineers, where I oversaw the development of smart contracts, microservices, SDKs, and frontends. Additionally, I enjoyed business development towards new and existing customers and setting up service environments for standard lifecycle stages.
 
-          <b>TechStack: </b><em>Blockchain, Web3, Ethereum, Solidity, Go, JavaScript, TypeScript, Node.js, AWS, Docker, Kubernetes, Hardhat, Truffle, Ethers</em>
+          <b>TechStack: </b><em>Blockchain, Web3, Ethereum, Solidity, Go, JavaScript, TypeScript, Node.js, AWS, Docker, Kubernetes, Hardhat, Truffle, Ethers, Git, GitHub, GitHub Actions</em>
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
